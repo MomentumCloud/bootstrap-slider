@@ -8,7 +8,7 @@
     .slider-track {
       height: calc($slider-line-height / 2);
       width: 100%;
-      margin-top: calc(- $slider-line-height / 4);
+      margin-top: calc( -1 * $slider-line-height / 4);
       top:  50%;
       left: 0;
     }
