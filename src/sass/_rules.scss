@@ -19,7 +19,7 @@
     }
     .slider-tick,
     .slider-handle {
-      margin-left: -calc($slider-line-height / 2);
+      margin-left: calc( -1 * $slider-line-height / 2);
       &.triangle {
         position: relative;
         top: 50%;
@@ -55,7 +55,7 @@
       .slider-tick,
       .slider-handle {
         margin-left: initial;
-        margin-right: -calc($slider-line-height / 2);
+        margin-right: calc( -1 * $slider-line-height / 2);
       }
       .slider-tick-container {
         left: initial;
@@ -85,7 +85,7 @@
     }
     .slider-tick,
     .slider-handle {
-      margin-top: -calc($slider-line-height / 2);
+      margin-top: calc( -1 * $slider-line-height / 2);
       &.triangle {
         border-width: calc($slider-line-height / 2) 0 calc($slider-line-height / 2) calc($slider-line-height / 2);
         width:  1px;
